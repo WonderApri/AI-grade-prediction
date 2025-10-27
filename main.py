@@ -19,7 +19,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 #This is training the Model, splitting it into training and testing, randoming picking some to learn patterns from and others to check how well it learned 
 #test_size=0.2 means 20% of data is for testing, 80% for training 
 #random_state=42 is just a seed for random number generator to ensure reproducibility 
-#reproducibility means every time you run the code, you get the same results 
+#reproducibility means every time you run the code, you get the same results
 
 model = LinearRegression() #Creating the model using Linear Regression 
 
