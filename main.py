@@ -46,3 +46,8 @@ plt.ylabel('Scores')
 plt.title('Hours Studied vs Scores Prediction') 
 plt.legend() 
 plt.show()
+
+hours = float(input("Enter hours studied: "))       # ask the user for input
+hours_array = np.array([[hours]])                   # convert to 2D array
+predicted_score = model.predict(hours_array)       # predict
+print(f"Predicted score: {predicted_score[0]:.2f}")
