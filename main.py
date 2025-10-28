@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 #Now we prepare the Data 
 data = { 
-    'Hour_studied': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
-    'score': [11, 25, 32, 40, 59, 62, 69, 78, 82, 89] 
+    'Hour_studied': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 
+    'score': [11, 25, 32, 40, 59, 62, 69, 78, 82, 89, 92] 
     } 
 
 df = pd.DataFrame(data) #Pandas df makes a table, DataFrame is the table like structure similar to excel sheet, data is the raw data given 
